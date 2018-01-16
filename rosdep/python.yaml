@@ -1687,6 +1687,15 @@ python-jira-pip:
   ubuntu:
     pip:
       packages: [jira]
+python-jsonpickle:
+  arch: [python2-jsonpickle]
+  debian: [python-jsonpickle]
+  fedora: [python2-jsonpickle]
+  gentoo: [dev-python/jsonpickle]
+  osx:
+    pip:
+      packages: [jsonpickle]
+  ubuntu: [python-jsonpickle]
 python-jsonpyes-pip:
   debian:
     pip:
